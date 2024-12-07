@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Restaurante con los mejores sabores y experiencias gastronómicas.">
+    <meta name="keywords" content="Restaurante, Comida, Gastronomía, Gourmet">
+    <meta name="author" content="Tu Nombre">
+    <title>Restaurante La Vela</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Restaurante La Vela</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#menu">Menú</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Sobre Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="inicio" class="text-center text-white py-5 banner">
+        <div class="container">
+            <h1 class="display-4">Bienvenidos a Restaurante La Vela</h1>
+            <p class="lead">Descubre sabores únicos y experiencias inolvidables.</p>
+        </div>
+    </section>
+
+    <section id="menu" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Nuestro Menú</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="imagenes/salmón.jpg" class="card-img-top" alt="Plato 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Salmón y Fruto de mar</h5>
+                            <p class="card-text">Un plato fresco y cómodo, que combina salmón y los mejores frutos del mar en una deliciosa fusión de sabores.</p>
+                            <p class="card-text"><strong>S/ 35.00</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="imagenes/carne.jpg" class="card-img-top" alt="Plato 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Filet Mignon Royal</h5>
+                            <p class="card-text">Jugoso corte de res acompañado de un toque de verduras frescas salteadas, resaltando su sabor natural y elegante.</p>
+                            <p class="card-text"><strong>S/ 40.00</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="imagenes/plato queso.jpg" class="card-img-top" alt="Plato 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Pasta al Queso</h5>
+                            <p class="card-text">Pasta delicada en una cremosa salsa de quesos, coronada con finas hierbas frescas para un toque aromático irresistible.</p>
+                            <p class="card-text"><strong>S/ 50.00</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="about" class="bg-light py-5">
+    <div class="container">
+        <h2 class="text-center mb-4 display-4 font-weight-bold">Sobre Nosotros</h2>
+        <div class="row align-items-center">
+            <div class="col-md-6 mb-4 mb-md-0">
+                <div class="about-img-container">
+                    <img src="imagenes/chef.jpg" class="img-fluid rounded shadow-lg" alt="Chef del restaurante">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <p class="about-text lead">En Restaurante La Vela ofrecemos una experiencia culinaria inolvidable con ingredientes frescos y un servicio excepcional. Nos enorgullece cada plato que servimos, y trabajamos con pasión para brindarte momentos especiales en cada comida.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="contacto" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contáctanos</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Tu nombre" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="email" placeholder="tuemail@ejemplo.com" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" rows="5" placeholder="Tu mensaje aquí" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Restaurante La Vela. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
